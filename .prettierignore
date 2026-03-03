@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+.git
+.next
+out
+.venv
+env
+.DS_Store
