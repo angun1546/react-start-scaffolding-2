@@ -1,10 +1,14 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { router } from './router.jsx';
-import { RouterProvider } from 'react-router/dom';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { router } from "./router";
+// 컴포넌트의 주소를 미리 경로지정
 
-createRoot(document.getElementById('root')).render(
+import { RouterProvider } from "react-router/dom";
+
+
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
+  </StrictMode>,
 );

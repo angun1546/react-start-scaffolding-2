@@ -1,12 +1,10 @@
-import { Link } from 'react-router';
+import { Link } from "react-router";
 export function App() {
   return (
     <>
       <div>App</div>
-      <link to="">
-        <button>Home</button>
-      </link>
-      <a href="http://naver.com">Home</a>
+      <Link to="/h"><button>HOME</button></Link>
+      <a href="http://naver.com">naver</a>
     </>
   );
 }

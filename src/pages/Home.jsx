@@ -1,9 +1,9 @@
-import { Link } from 'react';
+import { Link } from "react-router";
 export function Home() {
   return (
     <>
       <div>Home</div>
-      <Link to="products">Products</Link>
+      <Link to="products">products</Link>
     </>
   );
 }
